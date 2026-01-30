@@ -1,0 +1,30 @@
+{
+    "name": "jedis-night",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "commit": "cz"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blackana/git-mastering-github.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/blackana/git-mastering-github/issues"
+    },
+    "homepage": "https://github.com/blackana/git-mastering-github#readme",
+    "devDependencies": {
+        "commitizen": "^4.3.1",
+        "cz-conventional-changelog": "^3.3.0"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}
